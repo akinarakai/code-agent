@@ -8,7 +8,7 @@ import * as Plugin from "./core/types/plugins/default-plugin.js";
 
 const ollama = new Strategy.OllamaStrategy("http://localhost:11434/api/chat", "gemma4:31b-cloud");
 
-const cwd = "C:/Users/PC/Desktop/Projects/code-agent";
+const cwd = "YOUR_PATH_TO_PROJECT";
 const plugins = [new Plugin.DefaultPlugin()];
 
 const agent = new Agent(ollama, cwd, plugins);
