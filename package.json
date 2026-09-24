@@ -4,6 +4,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
+    "start": "tsx src/index.tsx",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
